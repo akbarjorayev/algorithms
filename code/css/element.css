@@ -1,0 +1,21 @@
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* full con */
+.full_con {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color-dark);
+  padding: var(--padding-small);
+  transform: translateY(0);
+}
+
+.full_con.hide {
+  transform: translateY(100%);
+  opacity: 1;
+}

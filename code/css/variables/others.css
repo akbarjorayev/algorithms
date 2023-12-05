@@ -1,0 +1,33 @@
+:root {
+  /* blur */
+  --blur: 7px;
+  /* font */
+  --font-size: 16px;
+  --font-size-small: 12px;
+  --icon-fz-size: 20px;
+  /* size */
+  --icon-size: 30px;
+  /* border */
+  --border: var(--border-size) solid var(--gray-dark);
+  --border-size: 2px;
+  --border-ra: 12px;
+  --border-ra-big: 18px;
+  --border-ra-small: 8px;
+  --border-ra-small-very: 4px;
+  /* margin */
+  --margin: 12px;
+  --margin-small: 8px;
+  --margin-small-very: 4px;
+  --margin-big: 20px;
+  /* padding */
+  --padding: 12px;
+  --padding-small: 8px;
+  --padding-small-very: 4px;
+  --padding-big: 20px;
+  /* loader */
+  --loader-min-size: 20px;
+  --loader-normal-size: 50px;
+  --loader-max-size: 100px;
+  /* opacity */
+  --opacity: 0.7;
+}

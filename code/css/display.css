@@ -1,0 +1,46 @@
+/* displays */
+.df {
+  display: flex;
+}
+
+.df_ai_ce {
+  display: flex;
+  align-items: center;
+}
+
+.df_ai_b {
+  display: flex;
+  align-items: baseline;
+}
+
+.df_jc_sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.df_jc_sa {
+  display: flex;
+  justify-content: space-around;
+}
+
+.df_ai_jc_ce {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.df_fd_c {
+  display: flex;
+  flex-direction: column;
+}
+
+.df_fw_w {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.df_fd_r {
+  display: flex;
+  flex-direction: row;
+}

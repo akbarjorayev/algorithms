@@ -1,0 +1,82 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* theme color */
+    --theme-color: #000;
+    --theme-color-opacity: #000a;
+    --theme-color-not: #fff;
+    /* main colors */
+    --main-color: #6399aa;
+    --main-color-light: #2b527d;
+    --main-color-dark: #2969b6;
+    --main-color-opacity: #6399aa99;
+    /* pink */
+    --pink: #aa63a2;
+    --pink-light: #7d2b77;
+    --pink-dark: #b629ad;
+    --pink-opacity: #aa63a999;
+    /* green */
+    --green: #6baa63;
+    --green-light: #2b7d30;
+    --green-dark: #32b629;
+    --green-opacity: #63aa6799;
+    /* red */
+    --red: #aa6363;
+    --red-light: #7d2b2b;
+    --red-dark: #b62929;
+    --red-opacity: #aa636399;
+    /* gray */
+    --gray: #707070;
+    --gray-light: #979797;
+    --gray-dark: #424242;
+    --gray-opacity: #424242aa;
+    /* other colors */
+    --selection-color: #566f99;
+    --lines-color: #bbb;
+    --scrollbar-thumb-color: #186e8a;
+    --active-color: #5f5ff4;
+    /* color */
+    --error-color: #da3a3a;
+    --warning-color: #b3bd2e;
+    --success-color: #349225;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* theme color */
+    --theme-color: #fff;
+    --theme-color-not: #000;
+    /* main color */
+    --main-color: #a9c2fb;
+    --main-color-light: #f2f6ff;
+    --main-color-dark: #326add;
+    /* pink */
+    --pink: #aa63a2;
+    --pink-light: #7d2b77;
+    --pink-dark: #b629ad;
+    --pink-opacity: #aa63a999;
+    /* green */
+    --green: #6baa63;
+    --green-light: #2b7d30;
+    --green-dark: #32b629;
+    --green-opacity: #63aa6799;
+    /* red */
+    --red: #aa6363;
+    --red-light: #7d2b2b;
+    --red-dark: #b62929;
+    --red-opacity: #aa636399;
+    /* gray */
+    --gray: #858585;
+    --gray-light: #555555;
+    --gray-dark: #ececec;
+    --gray-opacity: #424242aa;
+    /* other colors */
+    --selection-color: #a0c2f4;
+    --lines-color: #666;
+    --scrollbar-thumb-color: #7483a0;
+    /* color */
+    --error-color: #dd5151;
+    --warning-color: #b3bd2e;
+    --success-color: #349225;
+  }
+}
