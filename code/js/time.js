@@ -1,48 +1,3 @@
-const months = {
-  abbr: [
-    'Jan',
-    'Feb',
-    'Mar',
-    'Apr',
-    'May',
-    'Jun',
-    'Jul',
-    'Aug',
-    'Sep',
-    'Oct',
-    'Nov',
-    'Dec',
-  ],
-  full: [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ],
-}
-
-const daysOfWeek = {
-  abbr: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-  full: [
-    'Sunday',
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday',
-  ],
-}
-
-// https://www.w3schools.com/jsref/jsref_obj_date.asp
 const date = new Date()
 const time = {
   time: date.getTime(),
@@ -88,6 +43,50 @@ const time = {
   date: date,
 }
 
+const months = {
+  abbr: [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ],
+  full: [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ],
+}
+
+const daysOfWeek = {
+  abbr: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  full: [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+  ],
+}
+
 function getWeek(date, startDay = 0) {
   const tempDate = new Date(date)
   tempDate.setMonth(0, 1)
@@ -129,3 +128,5 @@ function getSeason(date) {
 }
 
 export { time }
+
+// https://www.w3schools.com/jsref/jsref_obj_date.asp
