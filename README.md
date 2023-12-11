@@ -10,6 +10,6 @@ We welcome contributions! If you have a piece of code that you find yourself usi
 This project is licensed under the MIT License.
 
 ## Contact
-If you have any questions or suggestions, please feel free to contact us.
+If you have any questions or suggestions, please feel free to contact me.
 
 Happy coding! 😊
