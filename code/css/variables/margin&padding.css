@@ -1,0 +1,12 @@
+:root {
+  /* margin */
+  --margin: 12px;
+  --margin-small: 8px;
+  --margin-small-very: 4px;
+  --margin-big: 20px;
+  /* padding */
+  --padding: 12px;
+  --padding-small: 8px;
+  --padding-small-very: 4px;
+  --padding-big: 20px;
+}

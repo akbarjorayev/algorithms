@@ -10,5 +10,6 @@ function get(url) {
       console.error('Error:', error)
     })
 }
+// getPromise
 
 export { get }

@@ -1,0 +1,6 @@
+:root {
+  /* loader */
+  --loader-min-size: 20px;
+  --loader-normal-size: 50px;
+  --loader-max-size: 100px;
+}

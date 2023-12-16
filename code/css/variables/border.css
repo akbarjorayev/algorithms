@@ -1,0 +1,8 @@
+:root {
+  --border: var(--border-size) solid var(--gray-dark);
+  --border-size: 2px;
+  --border-ra: 12px;
+  --border-ra-big: 18px;
+  --border-ra-small: 8px;
+  --border-ra-small-very: 4px;
+}
