@@ -6,15 +6,15 @@
   flex-direction: column;
 }
 
-.list_v > div:not(:last-child) {
+.list_v > *:not(:last-child) {
   margin-bottom: var(--margin-small);
 }
 
-.list_v_big > div:not(:last-child) {
+.list_v_big > *:not(:last-child) {
   margin-bottom: var(--margin);
 }
 
-.list_v_small > div:not(:last-child) {
+.list_v_small > *:not(:last-child) {
   margin-bottom: var(--margin-small);
 }
 
@@ -24,15 +24,15 @@
   display: flex;
 }
 
-.list_h > div:not(:last-child) {
+.list_h > *:not(:last-child) {
   margin-right: var(--margin-small);
 }
 
-.list_h_big > div:not(:last-child) {
+.list_h_big > *:not(:last-child) {
   margin-right: var(--margin);
 }
 
-.list_h_small > div:not(:last-child) {
+.list_h_small > *:not(:last-child) {
   margin-right: var(--margin-small);
 }
 
