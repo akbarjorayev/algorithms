@@ -6,12 +6,8 @@ function add(htmlStr, pEl) {
   const template = document.createElement('template')
   template.innerHTML += htmlStr.trim()
 
-  const child = template.content.firstElementChild
-  if (!child) throw new Error('No valid HTML was provided')
-
-  pEl.appendChild(child)
-
-  return child
+  pEl.appendChild(template.content)
+  return template
 }
 
 export { add }
