@@ -19,6 +19,11 @@
     --green-light: #2b7d30;
     --green-dark: #32b629;
     --green-opacity: #63aa6799;
+    /* yellow */
+    --yellow: #ffcc00;
+    --yellow-light: #ffd633;
+    --yellow-dark: #e6b800;
+    --yellow-opacity: #ffcc0099;
     /* red */
     --red: #aa6363;
     --red-light: #7d2b2b;
@@ -60,6 +65,11 @@
     --green-light: #2b7d30;
     --green-dark: #32b629;
     --green-opacity: #63aa6799;
+    /* yellow */
+    --yellow: #ffcc00;
+    --yellow-light: #ffd633;
+    --yellow-dark: #e6b800;
+    --yellow-opacity: #ffcc0099;
     /* red */
     --red: #aa6363;
     --red-light: #7d2b2b;
