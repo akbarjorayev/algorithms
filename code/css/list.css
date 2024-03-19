@@ -1,44 +1,43 @@
-/* lists */
-.list_v,
-.list_v_big,
-.list_v_small {
+.list_y,
+.list_y_big,
+.list_y_small {
   display: flex;
   flex-direction: column;
 }
 
-.list_v > *:not(:last-child) {
-  margin-bottom: var(--margin-small);
+.list_y > *:not(:last-child) {
+  margin-bottom: var(--mar-small);
 }
 
-.list_v_big > *:not(:last-child) {
-  margin-bottom: var(--margin);
+.list_y_big > *:not(:last-child) {
+  margin-bottom: var(--mar);
 }
 
-.list_v_small > *:not(:last-child) {
-  margin-bottom: var(--margin-small);
+.list_y_small > *:not(:last-child) {
+  margin-bottom: var(--mar-small);
 }
 
-.list_h,
-.list_h_big,
-.list_h_small {
+.list_x,
+.list_x_big,
+.list_x_small {
   display: flex;
 }
 
-.list_h > *:not(:last-child) {
-  margin-right: var(--margin-small);
+.list_x > *:not(:last-child) {
+  margin-right: var(--mar-small);
 }
 
-.list_h_big > *:not(:last-child) {
-  margin-right: var(--margin);
+.list_x_big > *:not(:last-child) {
+  margin-right: var(--mar);
 }
 
-.list_h_small > *:not(:last-child) {
-  margin-right: var(--margin-small);
+.list_x_small > *:not(:last-child) {
+  margin-right: var(--mar-small);
 }
 
 :root {
-  /* margin */
-  --margin: 12px;
-  --margin-small: 8px;
-  --margin-big: 20px;
+  /* mar */
+  --mar: 10px;
+  --mar-small: 6px;
+  --mar-big: 16px;
 }
