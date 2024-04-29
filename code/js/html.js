@@ -1,4 +1,4 @@
-function add(htmlStr, pEl) {
+export function add(htmlStr, pEl) {
   if (typeof htmlStr != 'string' || !(pEl instanceof HTMLElement)) {
     throw new Error('Invalid parameters')
   }
@@ -9,5 +9,3 @@ function add(htmlStr, pEl) {
   pEl.appendChild(template.content)
   return template
 }
-
-export { add }
