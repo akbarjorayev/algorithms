@@ -1,13 +1,13 @@
-function copy(str) {
+export function copy(str) {
   navigator.clipboard.writeText(`${str}`)
 }
 
-async function getText() {
+export async function getText() {
   const txt = await navigator.clipboard.readText()
   return txt
 }
 
-async function getImage() {
+export async function getImage() {
   try {
     const dataURL = await getText()
     const image = new Image()
@@ -17,5 +17,3 @@ async function getImage() {
     return false
   }
 }
-
-export { copy, getText, getImage }
