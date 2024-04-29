@@ -43,7 +43,7 @@ const daysOfWeek = {
 }
 
 const date = new Date()
-const time = {
+export const time = {
   time: date.getTime(),
   year: date.getFullYear(),
   season: getSeason(date),
@@ -127,5 +127,4 @@ function getSeason(date) {
   return seasons[seasonIndex]
 }
 
-export { time }
 // https://www.w3schools.com/jsref/jsref_obj_date.asp
