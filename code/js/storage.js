@@ -1,18 +1,18 @@
-function add(keyName, value) {
+export function add(keyName, value) {
   localStorage.setItem(keyName, JSON.stringify(value))
 
   const newData = get(keyName)
   return newData
 }
 
-function remove(keyName) {
+export function remove(keyName) {
   const oldData = get(keyName)
   localStorage.removeItem(keyName)
 
   return oldData
 }
 
-function change(keyName, value) {
+export function change(keyName, value) {
   const oldData = get(keyName)
   add(keyName, value)
   const newData = get(keyName)
@@ -23,8 +23,6 @@ function change(keyName, value) {
   }
 }
 
-function get(keyName) {
+export function get(keyName) {
   return JSON.parse(localStorage.getItem(keyName))
 }
-
-export { add, remove, change, get }

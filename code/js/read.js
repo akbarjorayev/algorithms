@@ -1,7 +1,7 @@
 const synth = window.speechSynthesis
 let utterance
 
-function read(text, lang = 'en-US') {
+export function read(text, lang = 'en-US') {
   if (!text.trim()) return
   const sentences = text.trim().split('.')
 
@@ -14,8 +14,6 @@ function read(text, lang = 'en-US') {
   return utterance
 }
 
-function stop() {
+export function stop() {
   synth.cancel()
 }
-
-export { read, stop }

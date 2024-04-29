@@ -1,6 +1,6 @@
 import * as Fetch from './fetch.js'
 
-function getLocation() {
+export function getLocation() {
   return new Promise((res, rej) => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((pos) => {
@@ -24,5 +24,3 @@ function getLocation() {
   })
 }
 // const location = getLocation().then((res) => res)
-
-export { getLocation }
