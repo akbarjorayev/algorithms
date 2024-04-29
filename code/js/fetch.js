@@ -1,4 +1,4 @@
-function get(url) {
+export function get(url) {
   return fetch(url)
     .then((res) => {
       if (!res.ok) {
@@ -10,6 +10,3 @@ function get(url) {
       console.error('Error:', error)
     })
 }
-// getPromise
-
-export { get }
