@@ -1,4 +1,4 @@
-async function hash(str) {
+export async function hash(str) {
   if (typeof str !== 'string' || str.length === 0) {
     throw new Error('HASH: Input must be a non-empty string')
   }
@@ -16,5 +16,3 @@ async function hash(str) {
     throw new Error('Hashing failed: ' + error.message)
   }
 }
-
-export { hash }
