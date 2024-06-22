@@ -39,3 +39,20 @@ export async function imageCompressor(
     reader.readAsDataURL(image)
   })
 }
+
+export function getImageBlob(file) {
+  return new Promise((res, rej) => {
+    const reader = new FileReader()
+
+    reader.onload = function (e) {
+      const { result } = e.target
+      res(result)
+    }
+
+    reader.onerror = function (err) {
+      rej(err)
+    }
+
+    reader.readAsDataURL(file)
+  })
+}
